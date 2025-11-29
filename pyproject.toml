@@ -1,0 +1,23 @@
+[project]
+name = "rl-learning"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Patrick Walsh",email = "pw4.2020@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab (>=4.5.0,<5.0.0)",
+    "numpy (>=2.3.5,<3.0.0)",
+    "plotly (>=6.5.0,<7.0.0)",
+    "stable-baselines3[extras] (>=2.7.0,<3.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "rich (>=14.2.0,<15.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
