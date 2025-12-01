@@ -46,7 +46,7 @@ env = GridEnv(grid_size=5)
 from stable_baselines3 import DQN
 
 model = DQN('MlpPolicy', env, verbose=1)
-model.learn(total_timesteps=10000, progress_bar=True)
+model.learn(total_timesteps=50000, progress_bar=True)
 
 # Test the trained agent
 obs, info = env.reset()
